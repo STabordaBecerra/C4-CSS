@@ -1,0 +1,70 @@
+.fondo {
+    background-color: rgb(43, 153, 114);
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+
+#principal {
+    font-size: 3em;
+}
+
+#titulo{
+    /* viewport width */
+    width: 65vw;
+    margin:auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+
+}
+
+.miTexto {
+    font-size: 2em;
+    color: green;
+}
+
+h4{
+    
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 2em 2em 2em;
+    border-radius: 15%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: rgb(111, 111, 211);
+}
+
+#cards-container{
+    background-color: aliceblue;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(218, 109, 0);
+    border-radius: 2%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
